@@ -23,20 +23,34 @@ export default function App() {
       flexDirection: 'row',
       justifyContent: 'space-evenly',
       alignItems: 'center',
+      alignContent: 'center', //needs wrapping
+      flexWrap: 'wrap',
     }}>
       <View style={{
         backgroundColor: 'dodgerblue',
-        width: 100,
-        height: 100,
-        alignSelf: 'flex-start'
+        flexBasis: 100,
+        flexGrow: 1,
+        // width: 100,
+        height: 75,
+        // alignSelf: 'flex-start'
       }} />
       <View style={{
         backgroundColor: 'gold',
         width: 100,
-        height: 100,
+        height: 130,
       }} />
       <View style={{
         backgroundColor: 'red',
+        width: 100,
+        height: 100,
+      }} />
+      <View style={{
+        backgroundColor: 'greenyellow',
+        width: 100,
+        height: 100,
+      }} />
+      <View style={{
+        backgroundColor: 'grey',
         width: 100,
         height: 100,
       }} />
