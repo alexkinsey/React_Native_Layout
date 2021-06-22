@@ -24,20 +24,23 @@ export default function App() {
       justifyContent: 'space-evenly',
       alignItems: 'center',
       alignContent: 'center', //needs wrapping
-      flexWrap: 'wrap',
+      // flexWrap: 'wrap',
     }}>
       <View style={{
         backgroundColor: 'dodgerblue',
         flexBasis: 100,
-        flexGrow: 1,
+        // flexGrow: 1,
         // width: 100,
-        height: 75,
+        height: 100,
         // alignSelf: 'flex-start'
       }} />
       <View style={{
         backgroundColor: 'gold',
         width: 100,
-        height: 130,
+        height: 100,
+        position: 'absolute',
+        top: 50,
+        left: 20,
       }} />
       <View style={{
         backgroundColor: 'red',
@@ -49,11 +52,11 @@ export default function App() {
         width: 100,
         height: 100,
       }} />
-      <View style={{
+      {/* <View style={{
         backgroundColor: 'grey',
         width: 100,
         height: 100,
-      }} />
+      }} /> */}
     </View>
   );
 }
